@@ -14,7 +14,7 @@ print(updated_mission)
 updated_mission[0] = 'P'
 updated_mission[-1] = 'k'
 print(updated_mission)
-new_mission = " ".join(updated_mission)
+new_mission = "".join(updated_mission)
 # Remember, strings in Python are immutable, so you cannot alter them directly.
 
 # TODO: Print the updated mission name
