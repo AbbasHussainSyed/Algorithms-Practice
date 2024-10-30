@@ -2,7 +2,7 @@
 fruits = ['apple', 'banana', 'orange', 'kiwi', 'melon']
 
 i = 0;
-# Using a for loop to iterate over the list of fruits
+# Using a while loop to iterate over the list of fruits
 while i < len(fruits):
         fruit = fruits[i]
         print(f"Adding {fruit} to the salad.")
