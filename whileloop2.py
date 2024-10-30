@@ -7,13 +7,11 @@ index = 0
 # Hint: Consider using a conditional to determine when to add a space
 # iterates over the fruits list
 while index < len(fruits):
-    # end=" " modifies the print statement to print on the same line
-    print(fruits[index], end='')
-    # below condition checks if the index is the last fruit in the list
-    if index < len(fruits) - 1:
-        # after above it adds space to each word at the end
-        print(" ", end='')
+    fruits_in_salad += fruits[index];
+    if index < len(fruits)-1:
+        fruits_in_salad += " ";
     index += 1
+print(fruits_in_salad)
 
 """if fruits_in_salad.endswith(","):
                 result = " ".join(fruits_in_salad)
