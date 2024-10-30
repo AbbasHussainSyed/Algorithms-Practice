@@ -7,9 +7,9 @@ index = 0
 # Hint: Consider using a conditional to determine when to add a space
 while  index < len(fruits):
         print(fruits[index], end=" ")
+        if index < len(fruits)-1:
+                print(" ", end=" ")
         index += 1
-        print(fruits_in_salad)
-
 
 """if fruits_in_salad.endswith(","):
                 result = " ".join(fruits_in_salad)
