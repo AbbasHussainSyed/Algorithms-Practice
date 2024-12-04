@@ -4,9 +4,10 @@ def algorithm1(n):
         for j in range(n):
             for k in range(j):
                 print(k)
-                total += 1
+                total = total + 1
     return total
 
 
 result = algorithm1(4)
 print(result)
+
