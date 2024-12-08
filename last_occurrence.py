@@ -19,5 +19,5 @@ def last_occurrence(arr, val, low, high):
 
 
 arr = [2, 4, 4, 5, 6, 6]
-result = last_occurrence(arr, 3, low=0, high=len(arr) - 1)
+result = last_occurrence(arr, 4, low=0, high=len(arr) - 1)
 print(result)
