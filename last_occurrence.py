@@ -8,7 +8,7 @@ def last_occurrence(arr, val, low, high):
     mid = low + (high - low) // 2
 
     if arr[mid] == val:
-        if arr[mid] == high or arr[mid + 1] > val:
+        if mid == high or arr[mid + 1] > val:
             return mid
         else:
             return last_occurrence(arr, val, mid + 1, high)
