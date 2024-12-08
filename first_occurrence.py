@@ -4,20 +4,21 @@ def first_occurrence(arr, val, low, high):
     if low > high:
         return "value not in array"
 
-    mid = low + (high-low) // 2
+    mid = low + (high - low) // 2
 
     if arr[mid] == val:
-        if arr[mid] == 0 or arr[mid-1] < val:
+        if arr[mid] == 0 or arr[mid - 1] < val:
             return arr[mid]
         else:
-            return first_occurrence(arr, val, low, mid-1)
+            return first_occurrence(arr, val, low, mid - 1)
     elif arr[mid] > val:
-        return first_occurrence(arr, val, low, mid-1)
+        return first_occurrence(arr, val, low, mid - 1)
     else:
-        return first_occurrence(arr, val, mid+1, high)
+        return first_occurrence(arr, val, mid + 1, high)
 
-arr = [1,2,3,3,4,5,6,6]
-result = first_occurrence(arr, 3, 0, len(arr)-1)
+
+arr = [1, 2, 3, 3, 4, 5, 6, 6]
+result = first_occurrence(arr, 3, 0, len(arr) - 1)
 print(result)
 
 #  time complexity of O(logn)
