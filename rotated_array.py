@@ -17,3 +17,5 @@ def rotated_array(arr, target, low, high):
         return rotated_array(arr, target, low, mid-1)
     else:
         return rotated_array(arr, target, mid, high)
+
+arr = []
