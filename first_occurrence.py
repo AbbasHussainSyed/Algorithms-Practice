@@ -8,7 +8,7 @@ def first_occurrence(arr, val, low, high):
 
     if arr[mid] == val:
         if mid == 0 or arr[mid - 1] < val:
-            return arr[mid]
+            return mid
         else:
             return first_occurrence(arr, val, low, mid - 1)
     elif arr[mid] > val:
