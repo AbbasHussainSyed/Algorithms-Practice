@@ -19,4 +19,4 @@ def rotated_array(arr, target, low, high):
         return rotated_array(arr, target, mid, high)
 
 arr = [6, 7, 1, 2, 3, 4, 5]
-result = rotated_array()
+result = rotated_array(arr,)
