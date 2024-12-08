@@ -20,3 +20,4 @@ arr = [1,2,3,3,4,5,6,6]
 result = first_occurrence(arr, 3, 0, len(arr)-1)
 print(result)
 
+#  time complexity of O(logn)
