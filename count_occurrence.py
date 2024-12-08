@@ -1,5 +1,5 @@
 import first_occurrence as first
-import last_occurrence
+import last_occurrence as second
 
 
 def count_occurrence(arr, val):
