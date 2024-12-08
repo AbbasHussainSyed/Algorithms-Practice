@@ -10,3 +10,5 @@ def count_occurrence(arr, val):
         return -1
 
     return last - first + 1
+
+arr = [1,2,]
