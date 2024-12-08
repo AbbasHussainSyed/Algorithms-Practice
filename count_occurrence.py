@@ -1,4 +1,4 @@
-import first_occurrence
+import first_occurrence as first
 import last_occurrence
 
 
