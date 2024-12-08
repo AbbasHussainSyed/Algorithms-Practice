@@ -18,4 +18,5 @@ def rotated_array(arr, target, low, high):
     else:
         return rotated_array(arr, target, mid, high)
 
-arr = []
+arr = [6, 7, 1, 2, 3, 4, 5]
+result = rotated_array()
