@@ -3,3 +3,4 @@ def first_occurrence(arr, val, low, high):
 
     if low > high:
         return "value not in array"
+
