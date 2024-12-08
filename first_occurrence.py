@@ -2,7 +2,7 @@
 def first_occurrence(arr, val, low, high):
     #  base case
     if low > high:
-        return "value not in array"
+        return -1
 
     mid = low + (high - low) // 2
 
