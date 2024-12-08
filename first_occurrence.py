@@ -17,4 +17,4 @@ def first_occurrence(arr, val, low, high):
         return first_occurrence(arr, val, mid+1, high)
 
 arr = [1,2,3,3,4,5,6,6]
-result = first_occurrence(arr, )
+result = first_occurrence(arr, 3, )
