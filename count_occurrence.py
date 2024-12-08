@@ -16,3 +16,4 @@ arr = [1, 2, 3, 3, 4, 5, 6, 6]
 val = 3
 result = count_occurrence(arr, val)
 print(result)
+
