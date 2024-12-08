@@ -15,3 +15,5 @@ def first_occurrence(arr, val, low, high):
         return first_occurrence(arr, val, low, mid-1)
     else:
         return first_occurrence(arr, val, mid+1, high)
+
+#  
