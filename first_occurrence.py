@@ -10,4 +10,4 @@ def first_occurrence(arr, val, low, high):
         if arr[mid] == 0 or arr[mid-1] < val:
             return arr[mid]
         else:
-            return 
+            return first_occurrence()
