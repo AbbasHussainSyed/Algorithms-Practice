@@ -14,4 +14,4 @@ def rotated_array(arr, target, low, high):
     if arr[mid] == target:
         return mid
     elif arr[mid-1] < mid:
-        return rotated_array(arr, target, low, mid)
+        return rotated_array(arr, target, low, mid-1)
