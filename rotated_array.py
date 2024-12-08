@@ -6,7 +6,7 @@
 # Expected output: 3 (because 2 is at index 3)
 
 def rotated_array(arr, target, low, high):
-    if low > high:
+    if low == high:
         return -1
 
     mid = low + (high - low) // 2
