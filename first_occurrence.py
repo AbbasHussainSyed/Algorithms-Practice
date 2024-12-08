@@ -14,4 +14,4 @@ def first_occurrence(arr, val, low, high):
     elif arr[mid] > val:
         return first_occurrence(arr, val, low, mid-1)
     else:
-        return first_occurrence(arr, val,  )
+        return first_occurrence(arr, val, mid )
