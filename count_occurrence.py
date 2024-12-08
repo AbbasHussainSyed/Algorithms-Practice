@@ -3,7 +3,7 @@ import last_occurrence
 
 
 def count_occurrence(arr, val):
-    first = first_occurrence(arr, val, 0, high)
+    first = first_occurrence(arr, val, 0, len(arr)-1)
     last = last_occurrence(arr, val, low, high)
 
     if first == -1:
