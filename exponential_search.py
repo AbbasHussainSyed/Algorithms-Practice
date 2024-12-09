@@ -3,18 +3,7 @@
 # If target = 14, return its index (6)
 # If target not found, return -1
 
-def exponential_search(arr, target, low, high):
+def binary_search(arr, target, low, high):
     if low > high:
         return -1
-
-    mid = low + (high - low) // 2
-    if arr[mid] == target:
-        return mid
-
-    if arr[mid]<target:
-        if arr[mid]*2 == arr[mid+1]:
-            return exponential_search(arr, target, mid+1, high)
-        else:
-            return exponential_search(arr, target, low, mid-1)
-
-    el
+    
