@@ -14,4 +14,5 @@ def exponential_search(arr, target, low, high):
     if arr[mid]<target:
         if arr[mid]*2 == arr[mid+1]:
             return exponential_search(arr, target, mid+1, high)
-        
+        else:
+            return exponential_search()
