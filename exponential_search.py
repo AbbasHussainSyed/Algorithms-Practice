@@ -26,3 +26,7 @@ def exponential_search(arr, target):
 
     return binary_search(arr, target, i//2, min(i, len(arr)-1))
 
+arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+print(exponential_search(arr, 14))  # Should print 6
+print(exponential_search(arr, 10))  # Should print 4
+print(exponential_search(arr, 21))  # Should print -1
