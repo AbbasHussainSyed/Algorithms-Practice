@@ -5,7 +5,6 @@
 # For array [5, 10, 20, 15]
 # 20 is a peak because it's greater than 10 and 15
 # Should return index 2
-
 # Note: If there are multiple peaks, we can return any one of them
 
 def find_peak(arr, low, high):
