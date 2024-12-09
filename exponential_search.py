@@ -4,9 +4,9 @@
 # If target not found, return -1
 
 def exponential_search(arr, target, low, high):
-        if low > high:
-                return -1
+    if low > high:
+        return -1
 
-        mid = low + (high - low) // 2
-        if arr[mid] == target:
-                return mid
+    mid = low + (high - low) // 2
+    if arr[mid] == target:
+        return mid
