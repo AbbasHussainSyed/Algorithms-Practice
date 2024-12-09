@@ -6,4 +6,4 @@ def ternary_search(arr, val, low, high):
     if low > high:
         return -1
 
-    mid = low + (high - low) // 1/2
+    mid1 = low + (high - low) // 1/2
