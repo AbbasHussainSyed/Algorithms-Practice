@@ -12,9 +12,10 @@ def binary_search(arr, target, low, high):
     if arr[mid] == target:
         return mid
     elif arr[mid] > target:
-        return binary_search(arr, target, low, mid-1)
+        return binary_search(arr, target, low, mid - 1)
     else:
-        return binary_search(arr, target, mid+1, high)
+        return binary_search(arr, target, mid + 1, high)
+
 
 def exponential_search(arr, target):
     if arr[0] == target:
@@ -24,7 +25,8 @@ def exponential_search(arr, target):
     while i < len(arr) and arr[i] <= target:
         i = i * 2
 
-    return binary_search(arr, target, i//2, min(i, len(arr)-1))
+    return binary_search(arr, target, i // 2, min(i, len(arr) - 1))
+
 
 arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 print(exponential_search(arr, 14))  # Should print 6
