@@ -13,4 +13,4 @@ def floor_ceiling(arr, target, low, high):
     if arr[mid] <= target:
         return mid
     if arr[mid] >= target:
-        return 
+        return mid 
