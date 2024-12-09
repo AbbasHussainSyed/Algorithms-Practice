@@ -13,7 +13,9 @@ def ternary_search(arr, val, low, high):
         return mid1
     elif arr[mid1] > val:
         return ternary_search(arr, val, low, mid1-1)
+    if arr[mid2] == val:
+        return
     else:
         return ternary_search(arr, val, mid1+1, high)
 
-    
+
