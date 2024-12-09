@@ -9,13 +9,14 @@ def binary_search(arr, target, low, high):
 
     mid = low + (high - low) // 2
     if arr[mid] == target:
-     return mid
+        return mid
     elif arr[mid] > target:
-        return binary_search(arr, target, mid+1, high)
+        return binary_search(arr, target, mid + 1, high)
     else:
-        return binary_search(arr, target,low, mid-1)
+        return binary_search(arr, target, low, mid - 1)
+
 
 arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 target = 8
-result = binary_search(arr, target, low=0, high=len(arr)-1)
+result = binary_search(arr, target, low=0, high=len(arr) - 1)
 print(result)
