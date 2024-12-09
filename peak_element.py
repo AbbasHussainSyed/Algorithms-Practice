@@ -8,10 +8,13 @@
 
 # Note: If there are multiple peaks, we can return any one of them
 
-def peak_element(arr, peak, low, high):
+def peak_element(arr, low, high):
     if len(arr) == 1:
         return 0
 
     mid = low + (high - low) // 2
 
-        
+    if arr[mid] > arr[mid+1] and arr[mid] > arr[mid-1]:
+        return mid
+    elif arr[mid] < arr[mid-1] and arr[mid+1] > arr[mid]:
+        return 
