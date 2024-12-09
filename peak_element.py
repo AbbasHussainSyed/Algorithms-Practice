@@ -11,3 +11,7 @@
 def peak_element(arr, peak, low, high):
     if len(arr) == 1:
         return 0
+
+    mid = low + (high - low) // 2
+
+    
