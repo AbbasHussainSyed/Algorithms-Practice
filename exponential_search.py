@@ -10,3 +10,6 @@ def exponential_search(arr, target, low, high):
     mid = low + (high - low) // 2
     if arr[mid] == target:
         return mid
+
+    if arr[mid]*2 == arr[mid+1]:
+        return
