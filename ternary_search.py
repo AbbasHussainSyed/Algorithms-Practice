@@ -7,4 +7,7 @@ def ternary_search(arr, val, low, high):
         return -1
 
     mid1 = low + (high - low) // 1/2
-    mid2 = low + (high - low)
+    mid2 = low + (high - low) // 2/3
+
+    if arr[mid1] == val:
+        return mid1
