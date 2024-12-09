@@ -7,7 +7,7 @@ ceiling = 8 (smallest number ≥ 5)"""
 
 def floor_ceiling(arr, target, low, high):
     if len(arr) == 1:
-        return -1
+        return 0
 
     mid = low + (high - low) // 2
 
