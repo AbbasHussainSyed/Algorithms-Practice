@@ -15,4 +15,5 @@ def ternary_search(arr, val, low, high):
         return ternary_search(arr, val, low, mid1-1)
     else:
         return ternary_search(arr, val, mid1+1, high)
+
     
