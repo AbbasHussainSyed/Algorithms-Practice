@@ -15,4 +15,8 @@ def binary_search(arr, target, low, high):
         return binary_search(arr, target, low, mid-1)
     else:
         return binary_search(arr, target, mid+1, high)
+
+def exponential_search(arr, target):
+    if arr[0] == target:
+        return arr
     
