@@ -20,7 +20,7 @@ def rotated_array(arr, target, low, high):
         else:
             return rotated_array(arr, target, mid + 1, high)
     else:
-        if arr[mid + 1] <= target <= arr[high]:
+        if arr[mid] <= target <= arr[high]:
             return rotated_array(arr, target, mid + 1, high)
         else:
             return rotated_array(arr, target, low, mid-1)
