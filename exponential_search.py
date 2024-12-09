@@ -22,5 +22,7 @@ def exponential_search(arr, target):
 
     i = 1
     while i < len(arr) and arr[i] <= target:
-        i = i 
+        i = i * 2
+
+    return binary_search(arr, target, )
 
