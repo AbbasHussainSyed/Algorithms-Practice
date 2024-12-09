@@ -13,3 +13,5 @@ def binary_search(arr, target, low, high):
         return mid
     elif arr[mid] > target:
         return binary_search(arr, target, low, mid-1)
+    else:
+        return 
