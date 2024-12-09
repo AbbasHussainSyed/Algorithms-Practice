@@ -15,15 +15,13 @@ def rotated_array(arr, target, low, high):
         return mid
 
     if arr[low] <= arr[mid]:
-        if arr[low]<= target <= arr[mid]:
-            return rotated_array(arr, target, low, mid-1)
+        if arr[low] <= target <= arr[mid]:
+            return rotated_array(arr, target, low, mid - 1)
         else:
-            return rotated_array(arr, target, mid+1, high)
+            return rotated_array(arr, target, mid + 1, high)
     else:
-        if arr[mid+1] <= target <= arr[high]:
-         return rotated_array(arr, target, mid+1, high)
-
-
+        if arr[mid + 1] <= target <= arr[high]:
+            return rotated_array(arr, target, mid + 1, high)
 
 
 arr = [6, 7, 1, 2, 3, 4, 5]
