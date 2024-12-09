@@ -19,11 +19,9 @@ def rotated_array(arr, target, low, high):
             return rotated_array(arr, target, low, mid-1)
         else:
             return rotated_array(arr, target, mid+1, high)
-
-    elif arr[mid] > target and arr[mid] - arr[mid - 1] == 1:
-        return rotated_array(arr, target, low, mid - 1)
     else:
-        return rotated_array(arr, target, mid, high)
+        return 
+
 
 
 arr = [6, 7, 1, 2, 3, 4, 5]
