@@ -18,5 +18,9 @@ def binary_search(arr, target, low, high):
 
 def exponential_search(arr, target):
     if arr[0] == target:
-        return arr
-    
+        return 0
+
+    i = 1
+    while i < len(arr) and arr[i] <= target:
+        i = i 
+
