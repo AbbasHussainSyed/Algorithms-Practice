@@ -17,4 +17,4 @@ def exponential_search(arr, target, low, high):
         else:
             return exponential_search(arr, target, low, mid-1)
 
-    
+    el
