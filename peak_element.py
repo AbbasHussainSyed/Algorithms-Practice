@@ -14,4 +14,4 @@ def peak_element(arr, peak, low, high):
 
     mid = low + (high - low) // 2
 
-    
+        
