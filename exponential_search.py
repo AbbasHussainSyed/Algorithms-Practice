@@ -3,4 +3,8 @@
 # If target = 14, return its index (6)
 # If target not found, return -1
 
+def binary_search(arr, target, low, high):
+    if low > high:
+        return -1
 
+    
