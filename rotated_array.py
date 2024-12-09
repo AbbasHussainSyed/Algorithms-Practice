@@ -6,14 +6,20 @@
 # Expected output: 3 (because 2 is at index 3)
 
 def rotated_array(arr, target, low, high):
-    if low == high:
+    if low > high:
         return -1
 
     mid = low + (high - low) // 2
 
-    if arr[low] <= arr[mid]:
-        
+    if arr[mid] == target:
         return mid
+
+    if arr[low] <= arr[mid]:
+        if arr[low]<= target <= arr[mid]:
+            return rotated_array(arr, target, low, mid-1)
+        else:
+            return rotated_array(arr, target, mid+1, high)
+
     elif arr[mid] > target and arr[mid] - arr[mid - 1] == 1:
         return rotated_array(arr, target, low, mid - 1)
     else:
