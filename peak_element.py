@@ -17,4 +17,5 @@ def peak_element(arr, low, high):
     if arr[mid] > arr[mid+1] and arr[mid] > arr[mid-1]:
         return mid
     elif arr[mid] < arr[mid-1] and arr[mid+1] > arr[mid]:
-        return 
+        low = mid+1
+        
