@@ -27,5 +27,5 @@ def rotated_array(arr, target, low, high):
 
 
 arr = [6, 7, 1, 2, 3, 4, 5]
-result = rotated_array(arr, 6, 0, len(arr) - 1)
+result = rotated_array(arr, 7, 0, len(arr) - 1)
 print(result)
