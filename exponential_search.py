@@ -15,4 +15,4 @@ def binary_search(arr, target, low, high):
     else:
         return binary_search(arr, target,low, mid-1)
 
-arr = []
+arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
