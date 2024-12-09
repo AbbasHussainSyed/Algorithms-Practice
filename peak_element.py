@@ -7,6 +7,8 @@
 # Should return index 2
 # Note: If there are multiple peaks, we can return any one of them
 
+# time complexity is O(logn
+
 def find_peak(arr, low, high):
     # Find the middle index
     mid = low + (high - low) // 2
