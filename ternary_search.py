@@ -5,3 +5,4 @@
 def ternary_search(arr, val, low, high):
     if low > high:
         return -1
+    
