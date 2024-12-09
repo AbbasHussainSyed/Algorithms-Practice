@@ -2,22 +2,34 @@
 # Target = 7
 # Should return index 6
 
-def ternary_search(arr, val, low, high):
+def ternary_search(arr, target, low, high):
     if low > high:
         return -1
 
-    mid1 = low + (high - low) // 1/2
-    mid2 = low + (high - low) // 2/3
+    # Calculate the two midpoints correctly
+    mid1 = low + (high - low) // 3
+    mid2 = high - (high - low) // 3
 
-    if arr[mid1] == val:
+    # Found at either midpoint
+    if arr[mid1] == target:
         return mid1
-    elif arr[mid1] > val:
-        return ternary_search(arr, val, low, mid1-1)
-    if arr[mid2] == val:
+    if arr[mid2] == target:
         return mid2
-    elif arr[mid2] > val:
-        return ternary_search(arr, val, mid1, mid2-1)
-    else:
-        return ternary_search(arr, val, mid1+1, high)
 
+    # Target in left third
+    if target < arr[mid1]:
+        return ternary_search(arr, target, low, mid1 - 1)
+
+    # Target in right third
+    elif target > arr[mid2]:
+        return ternary_search(arr, target, mid2 + 1, high)
+
+    # Target in middle third
+    else:
+        return ternary_search(arr, target, mid1 + 1, mid2 - 1)
+
+
+# Test the function
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(ternary_search(arr, 7, 0, len(arr) - 1))  # Should print 6
 
