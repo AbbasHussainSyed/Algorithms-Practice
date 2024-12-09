@@ -4,6 +4,7 @@
 # Input array: [6, 7, 1, 2, 3, 4, 5]
 # Target: 1
 # Expected output: 3 (because 2 is at index 3)
+# time complexity of 
 
 def rotated_array(arr, target, low, high):
     if low > high:
