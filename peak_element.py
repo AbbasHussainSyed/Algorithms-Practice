@@ -9,6 +9,5 @@
 # Note: If there are multiple peaks, we can return any one of them
 
 def peak_element(arr, peak, low, high):
-
     if len(arr) == 1:
         return 0
