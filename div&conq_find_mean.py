@@ -20,3 +20,4 @@ def find_mean(arr):
 arr = [2,4,6,8,10]
 
 result = find_mean(arr)
+print(result)
