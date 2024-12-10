@@ -11,4 +11,4 @@ def count_elements(arr, x):
         second_half = count_elements(arr[arr/2:], x)
     return first_half+second_half
 
-arr = [2,3,4,]
+arr = [2,3,4,4,9]
