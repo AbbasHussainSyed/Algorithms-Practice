@@ -7,3 +7,4 @@ def longest_subsequence(arr):
 
 
 result = longest_subsequence([3, 10, 2, 1, 20])
+print(result)
