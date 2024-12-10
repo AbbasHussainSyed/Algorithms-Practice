@@ -7,4 +7,5 @@ def find_mean(arr):
         return arr[0] + arr[1] // 2, 2
 
     mid = len(arr) // 2
+
     
