@@ -1,1 +1,2 @@
-# dynamic programming tribonacci 
+# dynamic programming tribonacci algorithm
+
