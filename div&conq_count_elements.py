@@ -13,6 +13,6 @@ def count_elements(arr, x):
 
 
 arr = [2, 3, 4, 4, 9]
-x = 1
+x = 4
 result = count_elements(arr, x)
 print(result)
