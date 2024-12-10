@@ -10,3 +10,7 @@ def find_mean(arr):
 
     left_mean, left_count = find_mean(arr[:mid])
     right_mean, right_count = find_mean(arr[mid:])
+
+    total_count = left_count+right_count
+
+    combined_
