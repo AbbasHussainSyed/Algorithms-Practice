@@ -15,7 +15,7 @@ def find_mean(arr):
 
     combined_mean = (left_mean * left_count + right_mean * right_count) / total_count
 
-    return combined_mean
+    return combined_mean, total_count
 
 
 arr = [2, 4, 6, 8, 10]
