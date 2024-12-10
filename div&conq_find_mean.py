@@ -13,4 +13,4 @@ def find_mean(arr):
 
     total_count = left_count+right_count
 
-    combined_
+    combined_mean = (left_mean)
