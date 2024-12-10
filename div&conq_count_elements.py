@@ -2,5 +2,7 @@
 # Use a divide-and-conquer algorithm to solve the problem
 
 def count_elements(arr, x):
-    if len(arr)==0:
+    if len(arr) == 0:
         return 0
+    if len(arr) == 1 and arr[1] >= x:
+        return 1
