@@ -9,5 +9,5 @@ def tribonacci(n):
     return M[n]
 
 
-result = tribonacci(7)
+result = tribonacci(6)
 print(result)
