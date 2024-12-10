@@ -8,5 +8,5 @@ def coins_change(coin):
     return M[coin]
 
 
-result = coins_change(5)
+result = coins_change(11)
 print(result)
