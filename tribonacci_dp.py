@@ -2,4 +2,4 @@
 
 def tribonacci(n):
 
-    M[0,]
+    M
