@@ -7,4 +7,4 @@ def coins_change(coin):
         M[i] = min(M[i - 1] + 1, M[i - 5] + 1, M[i - 7] + 1)
     return M[coin]
 
-resulr
+result = coins_change()
