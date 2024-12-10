@@ -1,4 +1,4 @@
-# dynamic programming algorithm for coins change 
+# dynamic programming algorithm for coins change of 1, 5, 7
 
 def coins_change(coin):
     M = [0, 1, 2, 3, 4, 1, 2, 1] # base case coins needed for each amount till 7
