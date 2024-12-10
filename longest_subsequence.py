@@ -1,4 +1,4 @@
-# given an array find the longest subsequence - dynamic 
+# given an array find the longest subsequence - dynamic programming
 # example arr = [3,10,2,1,20] the longest subsequence is 3
 
 def longest_subsequence(arr):
