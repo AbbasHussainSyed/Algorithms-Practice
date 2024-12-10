@@ -8,3 +8,5 @@ def tribonacci(n):
         M.append(M[i-1]+M[i-2]+M[i-3])
 
     return M[n]
+
+result = tribonacci()
