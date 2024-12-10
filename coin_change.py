@@ -5,4 +5,5 @@ def coins_change(coin):
 
     for i in range(8, coin):
         coins = min(M[i-1]+1, M[i-5]+1, M[i-7]+1)
-        
+    return coins
+
