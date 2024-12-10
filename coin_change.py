@@ -8,3 +8,4 @@ def coins_change(coin):
     return M[coin]
 
 result = coins_change(5)
+print(result)
