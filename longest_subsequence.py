@@ -7,7 +7,7 @@ def longest_subsequence(arr):
     for i in range(0, len(arr)):
         for j in range(1, i):
             if arr[j] > arr[i]:
-                M[i] = max()
+                M[i] = max(M[i])
 
 
 result = longest_subsequence([3, 10, 2, 1, 20])
