@@ -10,3 +10,4 @@ def tribonacci(n):
     return M[n]
 
 result = tribonacci(5)
+print(result)
