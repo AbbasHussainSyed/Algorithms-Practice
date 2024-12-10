@@ -9,4 +9,4 @@ def tribonacci(n):
 
     return M[n]
 
-result = tribonacci()
+result = tribonacci(5)
