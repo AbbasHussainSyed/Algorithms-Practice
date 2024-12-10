@@ -11,13 +11,14 @@ def find_mean(arr):
     left_mean, left_count = find_mean(arr[:mid])
     right_mean, right_count = find_mean(arr[mid:])
 
-    total_count = left_count+right_count
+    total_count = left_count + right_count
 
-    combined_mean = (left_mean*left_count+right_mean*right_count) // total_count
+    combined_mean = (left_mean * left_count + right_mean * right_count) // total_count
 
     return combined_mean
 
-arr = [2,4,6,8,10]
+
+arr = [2, 4, 6, 8, 10]
 
 result = find_mean(arr)
 print(result)
