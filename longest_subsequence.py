@@ -4,6 +4,8 @@
 def longest_subsequence(arr):
     M = [1] * len(arr)
 
+    
+
 
 result = longest_subsequence([3, 10, 2, 1, 20])
 print(result)
