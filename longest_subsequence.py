@@ -2,5 +2,8 @@
 
 def longest_subsequence(arr):
 
-    arr[0] = 1
+    if arr[0] == 1:
+        return 1
+
     
+
