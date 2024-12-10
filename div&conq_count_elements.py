@@ -7,4 +7,4 @@ def count_elements(arr, x):
     if len(arr) == 1 and arr[1] >= x:
         return 1
     else:
-        first_half = count_elements(arr[:arr/2])
+        first_half = count_elements(arr[:arr/2], x)
