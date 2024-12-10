@@ -9,3 +9,4 @@ def find_mean(arr):
     mid = len(arr) // 2
 
     left_mean, left_count = find_mean(arr[:mid])
+    right_mean, right_count = right_mean(a)
