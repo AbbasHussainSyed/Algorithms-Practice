@@ -8,3 +8,5 @@ def count_elements(arr, x):
         return 1
     else:
         first_half = count_elements(arr[:arr/2], x)
+        second_half = count_elements(arr[arr/2:], x)
+    return 
