@@ -3,7 +3,7 @@
 def coins_change(coin):
     M = [0, 1, 2, 3, 4, 1, 2, 1]
 
-    M.extend(inf)
+    M.extend(float[inf])
 
     for i in range(8, coin+1):
         M[i] = min(M[i - 1] + 1, M[i - 5] + 1, M[i - 7] + 1)
