@@ -17,3 +17,6 @@ def find_mean(arr):
 
     return combined_mean
 
+arr = [2,4,6,8,10]
+
+result = find_mean(arr)
