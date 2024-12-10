@@ -8,4 +8,4 @@ def find_mean(arr):
 
     mid = len(arr) // 2
 
-    
+    left_count 
