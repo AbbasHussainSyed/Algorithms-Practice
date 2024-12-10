@@ -5,5 +5,5 @@ def longest_subsequence(arr):
     M = [1]*len(arr)
     print(M)
 
-result = longest_subsequence()
+result = longest_subsequence([])
 
