@@ -1,7 +1,7 @@
 # dynamic programming algorithm for coins change
 
 def coins_change(coin):
-    M = [0, 1, 2, 3, 4, 1, 2, 1]
+    M = [0, 1, 2, 3, 4, 1, 2, 1] # base case coins needed for each amount till 
 
     M.extend([float('inf')]*(coin-7))
 
