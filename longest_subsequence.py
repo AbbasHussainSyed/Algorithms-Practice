@@ -9,7 +9,7 @@ def longest_subsequence(arr):
             if arr[i] > arr[j]:
                 rint(M[i])
                 M[i] = max(M[i], M[j]+1)
-                p
+        
     return max(M)
 
 
