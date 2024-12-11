@@ -9,7 +9,6 @@ def longest_subsequence(arr):
             if arr[i] > arr[j]:
                 print(i)
                 M[i] = max(M[i], M[j]+1)
-
     return max(M)
 
 
