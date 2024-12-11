@@ -32,4 +32,3 @@ def ternary_search(arr, target, low, high):
 # Test the function
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(ternary_search(arr, 7, 0, len(arr) - 1))  # Should print 6
-
