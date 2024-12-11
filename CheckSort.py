@@ -23,5 +23,5 @@ def is_sorted(arr):
 
 # Driver Program
 
-result = is_sorted([5, 4, 8, 7, 9])
+result = is_sorted([5, 6, 8, 7, 9])
 print(result)
